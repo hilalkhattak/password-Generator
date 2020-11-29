@@ -19,5 +19,5 @@ from password import views
 
 urlpatterns = [
     path('', views.home),
-    path('phones', views.phones),
+    path('pwd', views.pwd),
 ]
