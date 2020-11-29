@@ -18,6 +18,6 @@ from django.urls import path
 from password import views
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name = 'home'),
     path('pwd', views.pwd),
 ]
