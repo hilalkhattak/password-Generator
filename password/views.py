@@ -7,6 +7,9 @@ import random
 def home(request):
     return render(request, 'passwordapp/home.html')
 
+def about(request):
+    return render(request, 'passwordapp/about.html')
+
 
 def pwd(request):
 
